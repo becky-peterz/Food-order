@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.up {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(184, 93, 24);
+    display: flex;
+    justify-content: space-between;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 2rem;
+}
+nav{
+    margin-top: 10px;
+    margin-right: 20px;
+    gap:30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid-items {
+    height: 250px;
+}
+
+.one {
+    background-image: url("Images/sharwama.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.two {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.margin {
+    margin-top: 10px;
+}
+.ourmen{
+    font-size: 1.5rem;
+    background-color: white !important;
+    border: 1px solid rgb(184, 93, 24);
+   height: 50px;
+    border-radius: 5px;
+}
+.dess{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.justify{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(184, 93, 24);
+    width:200px
+    
+}
+.three {
+    background-image: url("Images/pizza-7863713_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fourth {
+    background-image: url("Images/berries-6514670_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fifth {
+    background-image: url("Images/cake-1971552_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.six {
+    background-image: url("Images/cocktail-2295728_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.seven {
+    background-image: url("Images/cocktail-7333245_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.our {
+    height: 50px;
+    width: 130px;
+    background-color: bisque;
+    border: none;
+}

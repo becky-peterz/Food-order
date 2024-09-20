@@ -1,0 +1,284 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.up {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(184, 93, 24);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-size: 2rem;
+}
+.featured{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.feature{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.deli{
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
+.bf{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.burger {
+    height: 575px;
+    background-image: url("Images/burger-4379863_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.full{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.men{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.orange {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(184, 93, 24);
+    border: none;
+}
+nav{
+    margin-top: 10px;
+    margin-right: 20px;
+    gap:30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid-items {
+    height: 250px;
+}
+
+.one {
+    background-image: url("Images/sharwama.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.two {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.margin {
+    margin-top: 10px;
+}
+
+.three {
+    background-image: url("Images/jollof-rice-540x540.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fourth {
+    background-image: url("Images/berries-6514670_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fifth {
+    background-image: url("Images/cake-1971552_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our {
+    height: 50px;
+    width: 130px;
+    background-color: bisque;
+    border: none;
+}
+
+.table {
+    height: 500px;
+    background-image: url("Images/abendbrot-939435_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 40px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    
+}
+
+.story {
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    border-radius: 5px;
+}
+
+.full {
+    height: 40px;
+    width: 130px;
+    background-color: #F42F2C;
+}
+.testimonials, .featured, .contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+
+
+.featured-item {
+    /* width: 30%; */
+    text-align: center;
+    margin: 10px;
+}
+
+.featured-img {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.featured-img.one {
+    background-image: url("Images/sharwama.jpg");
+}
+
+.featured-img.two {
+    background-image: url("Images/pizza-7863713_1280.jpg");
+}
+
+.contact {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+ textarea{
+    /* width:120px; */
+    resize: none;
+}
+
+.contact button {
+    background-color: rgb(184, 93, 24);
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #F42F2C;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer-content nav {
+    margin-top: 10px;
+}
+
+.footer-content a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.social-media {
+    margin-top: 15px;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background-color: rgb(184, 93, 24);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #F42F2C;
+}
+
